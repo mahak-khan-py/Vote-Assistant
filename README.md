@@ -32,6 +32,43 @@ graph TD
 
 ---
 
+## 🎯 Project Philosophy
+
+We believe that a healthy democracy relies on informed citizens. This project aims to bridge the information gap by:
+- **Demystifying Bureaucracy**: Translating complex procedural steps into simple, actionable guides.
+- **Accessibility**: Using visual aids, interactive elements, and intuitive design to ensure information reaches everyone.
+- **Instant Support**: Providing a 24/7 AI-driven assistant to handle common voter queries.
+
+---
+
+## 🛠️ Feature Architecture
+
+How our core modules interact to provide a seamless educational experience:
+
+```mermaid
+mindmap
+  root((Vote Assistant))
+    Educational Content
+      Timeline
+        Phase Notifications
+        Key Milestones
+      Flashcards
+        Terminology
+        Visual Aids
+    Engagement
+      Knowledge Quiz
+        Score Tracking
+        Instant Feedback
+      How-to-Vote Guide
+        Checklist Logic
+    Intelligence
+      AI Chat Assistant
+        Natural Language Input
+        Contextual Data Matching
+```
+
+---
+
 ## 🗳️ The Election Journey
 
 Our interactive timeline guides users through the critical phases of the democratic process:
@@ -59,7 +96,7 @@ sequenceDiagram
 -   **✅ How-to-Vote Guide**: A simplified 5-step checklist to ensure a smooth experience at the polling booth.
 -   **🧠 Educational Flashcards**: Master complex election terminology (like VVPAT, Model Code of Conduct, etc.) with ease.
 -   **🏆 Knowledge Quiz**: Gamified learning to test your understanding of Indian democracy.
--   **🤖 Smart Chat Assistant**: A context-aware AI powered by a curated knowledge base to answer instant queries.
+-   **🤖 Smart Chat Assistant**: A context-aware AI powered by a curated knowledge base (`src/data.js`) to answer instant queries.
 
 ---
 
