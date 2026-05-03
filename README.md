@@ -69,7 +69,7 @@ sequenceDiagram
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/mahak-khan-py/Election-Assistant.git
+    git clone https://github.com/mahak-khan-py/Vote-Assistant.git
     ```
 2.  Open `index.html` in any modern web browser.
 3.  (Optional) Run a local development server:
